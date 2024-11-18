@@ -5,6 +5,7 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Tea House</title>
           <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+          
 <script src="https://cdn.tailwindcss.com"></script>
 <!-- manrope google font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -198,9 +199,64 @@
       </section>
 
   </main>
-  <footer>
+  <footer class="bg-base-200 text-base-content px-48 py-10">
+    <div class="flex justify-between my-24">
+      <img src="images/cup.png" alt="">
+      <p>
+        <span>Ready to get strated?</span>
+        <button class="btn btn-primary">Get started</button>
+      </p>
+    </div>
+<div  class="footer">
+  <div>
+    <h6 class="footer-title">Services</h6>
+  <a class="link link-hover">Branding</a>
+  <a class="link link-hover">Design</a>
+  <a class="link link-hover">Marketing</a>
+  <a class="link link-hover">Advertisement</a>
+  </div>
 
+
+ <div>
+  <h6 class="footer-title">Company</h6>
+  <a class="link link-hover">About us</a>
+  <a class="link link-hover">Contact</a>
+  <a class="link link-hover">Jobs</a>
+  <a class="link link-hover">Press kit</a>
+ </div>
+
+
+  <div>
+    <h6 class="footer-title">Legal</h6>
+  <a class="link link-hover">Terms of use</a>
+  <a class="link link-hover">Privacy policy</a>
+  <a class="link link-hover">Cookie policy</a>
+  </div>
+
+<div>
+  <h6 class="footer-title">Newsletter</h6>
+  <div class="form-control w-80">
+    <label class="label">
+      <span class="label-text">Enter your email address</span>
+    </label>
+    <div class="relative">
+      <input
+        type="text"
+        placeholder="username@site.com"
+        class="py-4 bg-transparent border-b-2 border-black outline-none" />
+      <button class="btn btn-primary absolute top-0 right-0 rounded-full text-white ">
+        <i class="fa-solid fa-chevron-right">❯</i>
+      </button>
+    </div>
+  </div>
+</div>
+</div>    
+
+    <div class="mt-10 text-center">
+      <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+    </div>
   </footer>
+  
           
 </body>
 </html>
